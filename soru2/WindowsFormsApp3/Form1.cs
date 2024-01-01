@@ -218,6 +218,11 @@ namespace WindowsFormsApp3
             label5.Text = "Subtotal: " + "$" + "0.00";
             label6.Text = "Tax: " + "$" + "0.00";
             label7.Text = "Total: " + "$" + "0.00";
+            BeverageValue = 0.00;
+            AppetizerValue = 0.00;
+            Main_CourseValue = 0.00;
+            DessertValue = 0.00;
+            toplam = 0;
         }
     }
 }
